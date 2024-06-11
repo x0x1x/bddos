@@ -14,11 +14,11 @@ This project was created for educational purposes and personal use only.
 ## Installation
 
 ```shell
-$ sudo apt update
-$ sudo apt install python3
-$ sudo git clone https://github.com/x0x1x/bddos.git
-$ cd bddos/
-$ python3 bddos.py
+sudo apt update
+sudo apt install python3
+sudo git clone https://github.com/x0x1x/bddos.git
+cd bddos/
+python3 bddos.py
 ```
 
 ## Note
