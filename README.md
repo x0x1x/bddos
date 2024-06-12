@@ -1,7 +1,7 @@
 # bddos
 Bluetooth DDOS script
 
-# Bluetooth DOS-Attack Script
+# Bluetooth DDOS-Attack Script
 
 Script for conducting DOS-attacks on Bluetooth devices for pentest purposes.
 
