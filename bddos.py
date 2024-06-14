@@ -12,7 +12,7 @@ def main():
     printLogo()
     time.sleep(0.1)
     print('')
-    print('THIS SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND. YOU MAY USE THIS SOFTWARE AT YOUR OWN RISK. THE USE IS COMPLETE RESPONSIBILITY OF THE END-USER. THE DEVELOPERS ASSUME NO LIABILITY AND ARE NOT RESPONSIBLE FOR ANY MISUSE OR DAMAGE CAUSED BY THIS PROGRAM.')
+   print('\x1b[38;5;9m')
     if (input("Ready? (y/n) > ") in ['y', 'Y']):
         time.sleep(0.1)
         os.system('clear')
