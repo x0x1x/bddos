@@ -12,7 +12,7 @@ def main():
     printLogo()
     time.sleep(0.1)
     print('')
-   print('\x1b[38;5;9m')
+    print('\x1b[38;5;9m')
     if (input("Ready? (y/n) > ") in ['y', 'Y']):
         time.sleep(0.1)
         os.system('clear')
@@ -55,7 +55,7 @@ def main():
         print('')
         os.system('clear')
 
-        print("\x1b[38;5;9m[*] Starting DOS attack in 3 seconds...")
+        print("Starting DOS attack in 3 seconds...")
 
         for i in range(0, 3):
             print('[*] ' + str(3 - i))
