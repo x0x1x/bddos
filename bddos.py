@@ -18,7 +18,7 @@ def main():
         os.system('clear')
         printLogo()
         print('')
-        print("Scanning ...")
+        print("\x1b[38;5;9m[*] Scanning ...")
         output = subprocess.check_output("hcitool scan", shell=True, stderr=subprocess.STDOUT, text=True)
         lines = output.splitlines()
         id = 0
@@ -55,7 +55,7 @@ def main():
         print('')
         os.system('clear')
 
-        print("\x1b[38;5;9m{*} Starting DOS attack in 3 seconds...")
+        print("Starting DOS attack in 3 seconds...")
 
         for i in range(0, 3):
             print('[*] ' + str(3 - i))
